@@ -1,0 +1,44 @@
+
+.newnavbar__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.75em;
+    margin-left: 2em ;
+    width: 90%;
+}
+
+.navbar__headerContainer{
+    display: flex;
+}
+
+.draw__container{
+    display: flex;
+}
+
+.navbar__linksContainer{
+    display: flex;
+}
+
+.links__container{
+    margin: 0em 1em;
+}
+
+.links__container:hover{
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1140px) and (max-width: 1460px ){
+    
+}
+
+@media screen and (max-width: 431px) {
+    
+    .newnavbar__container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0em;
+        margin-left: 1.7em;
+    }
+    
+}
